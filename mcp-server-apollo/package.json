@@ -1,0 +1,37 @@
+{
+  "name": "@showyouself/mcp-server-apollo",
+  "version": "1.0.0",
+  "description": "MCP server for querying Apollo configuration center",
+  "keywords": [
+    "mcp",
+    "apollo",
+    "configuration",
+    "config-center"
+  ],
+  "homepage": "https://github.com/showyouself/mcp-server-apollo#readme",
+  "bugs": {
+    "url": "https://github.com/showyouself/mcp-server-apollo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/showyouself/mcp-server-apollo.git"
+  },
+  "license": "MIT",
+  "author": "showyouself",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "mcp-server-apollo": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
