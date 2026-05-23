@@ -4,7 +4,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 
-const APOLLO_ADDRESS = process.env.APOLLO_ADDRESS;
+const APOLLO_ADDRESS = process.env.APOLLO_ADDRESS || process.env.apollo_address;
 
 if (!APOLLO_ADDRESS) {
   console.error("APOLLO_ADDRESS environment variable is required. Example: http://apollo-domian.com:1080");
