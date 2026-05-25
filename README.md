@@ -31,6 +31,11 @@ claude mcp add -s -user mcp_server_apollo \
   -- node /path/to/mcp-server-apollo/index.js
 ```
 
+### Windows (PowerShell)
+
+```powershell
+claude mcp add mcp_server_apollo_sit -s user -- npx @showyouself/mcp-server-apollo --env apollo_address=http://your-apollo-meta-server:1080
+```
 ## Environment Variables
 
 | Variable | Required | Description |
